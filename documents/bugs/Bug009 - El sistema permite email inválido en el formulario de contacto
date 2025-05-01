@@ -1,0 +1,32 @@
+# 🐞 BUG009 - El sistema permite enviar el formulario de contacto con un email de formato inválido
+
+- **Funcionalidad**: Contact - Formulario de contacto
+- **Severidad**: Baja
+- **Prioridad**: Media
+- **Estado**: Abierto
+- **Reportado por**: Claudia Fernández
+- **Fecha**: 2025-05-01
+
+## 🔍 Descripción
+El sistema debería validar que el campo de email tenga un formato de correo electrónico válido antes de permitir el envío del formulario de contacto. Sin embargo, actualmente es posible ingresar valores inválidos (por ejemplo, "correo@prueba") y enviar el formulario sin advertencias ni mensajes de error.
+
+## 🔁 Pasos para reproducir
+1. Ingresar al sitio Shady Meadows B&B
+2. Ir a la sección "Contact"
+3. Completar los campos obligatorios con datos válidos, excepto el campo email
+4. Completar el campo email con "correo@prueba"
+5. Hacer clic en "Submit"
+
+## ✅ Resultado Esperado
+El sistema debe mostrar un mensaje de error indicando que el formato de email ingresado no es válido y debe impedir el envío del formulario.
+
+## ❌ Resultado Obtenido
+El sistema permite enviar el formulario y muestra mensaje de confirmación, aceptando un email con formato inválido.
+
+---
+
+## 🔗 Asociaciones
+
+- **User Story**: [US003 - Enviar un mensaje desde el formulario de contacto](../features/US003_contacto_enviar_mensaje.md)
+- **Caso de Prueba**: TC004 - Validación de formato de email inválido
+

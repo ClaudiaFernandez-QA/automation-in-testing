@@ -118,7 +118,7 @@ Feature: Enviar mensaje desde el formulario de contacto
 
 ---
 
-### 🔹 TC007 - Validación de longitud del teléfono
+### 🔹 TC007 - Validación del campo teléfono
 - **Precondición**: El usuario se encuentra en la sección "Contact"
 - **Pasos**:
   1. Completar el campo teléfono con menos de 11 caracteres numéricos
