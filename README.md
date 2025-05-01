@@ -15,11 +15,12 @@ Incluye documentación de:
 
 Hasta el momento se han documentado las siguientes funcionalidades:
 
-- Pantalla pública de reservas (Rooms & Booking)
-- Formulario de Contacto
-- Panel de Administración:
-  - Login al Admin Panel
-  - Consulta de mensajes recibidos
+- Formulario de reservas (Rooms)
+- Buscador de habitaciones (Booking)
+- Formulario de Contacto (Contact)
+- Panel de Administración (Admin):
+  - Login
+  - Consulta de mensajes recibidos (Message)
 
 ---
 
